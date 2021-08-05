@@ -1,6 +1,7 @@
-// VARIABLES IN TSC
-// We define variables with var, const and let
+// FUNCTIONS IN TSC
 
-const hello = "world";
-let hello = "world";
-let hello: string = "world";
+const getFullName = (rollNo: Number, surname:string) => {
+    return rollNo + " " + surname; //string concatination
+};
+
+console.log(getFullName(11, "sawant"));
