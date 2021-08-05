@@ -1,2 +1,6 @@
-var a = "1";
-console.log("aaa", a.toLocaleUpperCase());
+// VARIABLES IN TSC
+// We define variables with var, const and let
+
+const hello = "world";
+let hello = "world";
+let hello: string = "world";
