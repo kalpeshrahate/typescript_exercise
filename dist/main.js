@@ -1,5 +1,9 @@
-// FUNCTIONS IN TSC
-var getFullName = function (rollNo, surname) {
-    return rollNo + " " + surname; //string concatination
+// CREATING OBJECTS
+var user = {
+    name: 'prasad',
+    age: 25
 };
-console.log(getFullName(11, "sawant"));
+var user2 = {
+    name: 'prasad'
+};
+console.log(user.age);
