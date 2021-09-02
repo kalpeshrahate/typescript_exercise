@@ -1,5 +1,5 @@
 // CREATING OBJECTS
-
+// Comment added by kalpesh
 // // method #1
 // const user = {
 //     name: 'prasad',
